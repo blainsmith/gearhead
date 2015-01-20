@@ -1,0 +1,12 @@
+{
+  "name": "gearhead",
+  "version": "1.0.0",
+  "main": "gearhead.js",
+  "author": "Blain Smith <rebelgeek@blainsmith.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blainsmith/gearhead.git"
+  },
+  "keywords": ["util", "functional", "automotive", "engineering"],
+  "ignore" : ["docs", "test", "*.yml", "CNAME", "index.html", "favicon.ico", "CONTRIBUTING.md"]
+}

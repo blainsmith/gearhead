@@ -1,0 +1,30 @@
+{
+  "name": "gearhead",
+  "description": "JavaScript's functional programming helper library for automotive engineering.",
+  "keywords": [
+    "util",
+    "functional",
+    "automotive",
+    "engineering"
+  ],
+  "author": "Blain Smith <rebelgeek@blainsmith.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blainsmith/gearhead.git"
+  },
+  "main": "gearhead.js",
+  "version": "1.0.0",
+  "devDependencies": {
+    "eslint": "0.6.x",
+    "phantomjs": "1.9.11",
+    "uglify-js": "2.4.x"
+  },
+  "scripts": {
+    "test": "phantomjs test/vendor/runner.js test/index.html?noglobals=true && eslint gearhead.js test/*.js test/vendor/runner.js",
+    "build": "uglifyjs gearhead.js -c \"evaluate=false\" --comments \"/    .*/\" -m --source-map gearhead-min.map -o gearhead-min.js"
+  },
+  "files": [
+    "gearhead.js",
+    "gearhead-min.js"
+  ]
+}
