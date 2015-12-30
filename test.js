@@ -3,6 +3,11 @@ import gearhead from './';
 
 gearhead.CONFIG.PRECISION = 0;
 
+test('utils', t => {
+	t.is(gearhead.utils.format(13.13131313), 13, 'format to 0 decimal points');
+	t.is(gearhead.utils.format(13.13131313, 4), 13.1313, 'format to 4 decimal points');
+});
+
 test('basic', t => {
 	t.is(gearhead.horsepower(415, 4000), 316, 'horsepower');
 	t.is(gearhead.torque(316, 4000), 415, 'torque');
