@@ -85,11 +85,10 @@ Calculate the maximum air flow in CFM. The `atmosphere` defaults to sea level wh
 $ npm test
 ```
 
-[travis-badge]: https://api.travis-ci.org/blainsmith/seneca-aws-lambda.svg
-[travis-url]: https://travis-ci.org/blainsmith/seneca-aws-lambda
-[npm-badge]: https://badge.fury.io/js/seneca-aws-lambda.svg
-[npm-url]: https://badge.fury.io/js/seneca-aws-lambda
-[aws-sdk-url]: http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html
+[travis-badge]: https://api.travis-ci.org/blainsmith/gearhead.svg
+[travis-url]: https://travis-ci.org/blainsmith/gearhead
+[npm-badge]: https://badge.fury.io/js/gearhead.svg
+[npm-url]: https://badge.fury.io/js/gearhead
 
 
 ## License
