@@ -1,26 +1,20 @@
 # gearhead.js
 
+[![npm version][npm-badge]][npm-url]
+[![Build Status][travis-badge]][travis-url]
+
 Common automotive math calculations.
 
 ## Installation
 
-gearhead can be installed via npm or bower.
-
 ```
-$ npm install gearhead
-$ bower install gearhead
+npm install gearhead
 ```
 
 ## Usage
 
 ```js
-// node.js/CommonJS
 var gearhead = require('gearhead');
-
-// RequireJS/AMD
-require(["gearhead"], function(gearhead){
-  ...
-});
 ```
 
 ### Methods
@@ -87,12 +81,17 @@ Calculate the maximum air flow in CFM. The `atmosphere` defaults to sea level wh
 
 ## Tests
 
-Running tests with PhantomJS.
-
 ```
 $ npm test
 ```
 
+[travis-badge]: https://api.travis-ci.org/blainsmith/seneca-aws-lambda.svg
+[travis-url]: https://travis-ci.org/blainsmith/seneca-aws-lambda
+[npm-badge]: https://badge.fury.io/js/seneca-aws-lambda.svg
+[npm-url]: https://badge.fury.io/js/seneca-aws-lambda
+[aws-sdk-url]: http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html
+
+
 ## License
 
-MIT
+MIT © [Blain Smith](http://blainsmith.com)
